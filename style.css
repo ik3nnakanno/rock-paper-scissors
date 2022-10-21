@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(8, 1, 1);
+    color: rgb(10, 88, 36);
+    text-align: center;
+    font-family: asap, cursive;
+    padding: 20px;
+    font-size: 40px;
+}
+
+body {
+    background-color: rgb(26, 25, 25);
+}
+
+.score-board {
+    border: 3px solid rgb(10, 88, 10);
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 4px;
+    color: rgb(224, 250, 224);
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: cursive;
+    position: relative;
+}
+
+.badge {
+    background-color: rgb(211, 211, 18);
+    color: black;
+    font-size: 15px;
+    padding: 2px 10px;
+}
+
+#user-label {
+    position: absolute;
+    top: 25px;
+    left: -35px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 25px;
+    right: -35px;
+}
+
+.result {
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(10, 88, 36);
+    text-align: center;
+    font-weight: bold;
+}
+
+.choices {
+    margin: 50px 0;
+    text-align: center;
+    min-height: 120px;
+}
+
+.choice {
+    display: inline-block;
+    border: 4px solid green;
+    border-radius: 40%;
+    padding: 6px;
+    margin: 1px 20px;
+    transition: 200ms;
+}
+
+.jpegs {
+    border-radius: 30%;
+    padding: 5px;
+    transition: 200ms;
+}
+
+.choice:hover {
+    border: 5px solid rgb(158, 158, 8);
+    background-color: rgb(2, 31, 2);
+    cursor: pointer;
+    box-shadow: 1px 2px 3px rgb(70, 100, 10);
+}
+
+.jpegs:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#action-message {
+    text-align: center;
+    color: rgb(10, 88, 20);
+    font-family: cursive;
+    font-size: 20px;
+}
